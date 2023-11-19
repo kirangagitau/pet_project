@@ -1,4 +1,4 @@
-#@Authors Gitau Muguro && Wanjiku Macharia
+# @Authors Gitau Muguro && Wanjiku Macharia
 
 This is a collaborative project with the two of us aiming at learning, understanding and mastering
 python programming language. It is common for developers to collaborate on on a project every now

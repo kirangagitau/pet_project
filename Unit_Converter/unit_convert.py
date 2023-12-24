@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def meters_to_kilometers(meters):
     return meters / 1000
 
@@ -16,6 +18,9 @@ def miles_to_kilometers(miles):
 def kilometers_to_miles(kilometers):
     return kilometers / 1.60934
 
+def celcius_to_fahrenheit(celcius):
+    return ((celcius * 1.8) + 32)
+
 def convert(value, from_unit, to_unit):
     if from_unit == to_unit:
         return value  # No conversion needed for the same unit
@@ -29,6 +34,7 @@ def convert(value, from_unit, to_unit):
         ('meters', 'feet'): meters_to_feet,
         ('miles', 'kilometers'): miles_to_kilometers,
         ('kilometers', 'miles'): kilometers_to_miles,
+        ('celcius', 'fahrenheit'): celcius_to_fahrenheit,
     }
 
     conversion_key = (from_unit.lower(), to_unit.lower())

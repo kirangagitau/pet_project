@@ -21,6 +21,9 @@ def kilometers_to_miles(kilometers):
 def celcius_to_fahrenheit(celcius):
     return ((celcius * 1.8) + 32)
 
+def fahrenheit_to_celcius(fahrenheit):
+    return ((fahrenheit - 32) * (5/9))
+
 def convert(value, from_unit, to_unit):
     if from_unit == to_unit:
         return value  # No conversion needed for the same unit
@@ -35,6 +38,7 @@ def convert(value, from_unit, to_unit):
         ('miles', 'kilometers'): miles_to_kilometers,
         ('kilometers', 'miles'): kilometers_to_miles,
         ('celcius', 'fahrenheit'): celcius_to_fahrenheit,
+        ('fahrenheit', 'celcius'): fahrenheit_to_celcius,
     }
 
     conversion_key = (from_unit.lower(), to_unit.lower())

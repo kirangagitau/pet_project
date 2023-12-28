@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import random
 #the password will include uppercase,lowercase,digits and symbols
 uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"

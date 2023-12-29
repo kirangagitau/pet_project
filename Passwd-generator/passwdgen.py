@@ -18,9 +18,9 @@ if upper:
             if syms:
                 all+=symbols
                 #specify the length of the password
-                len = 15
+                len = 8
                 #specify the amount of passwords to be generated
-                amount = 13
+                amount = 7
                 for x in range(amount):
                  password = "".join(random.sample(all, len))
                  print(password)

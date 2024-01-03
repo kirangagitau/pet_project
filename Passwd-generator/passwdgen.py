@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import random
 #the password will include uppercase,lowercase,digits and symbols
 uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -17,9 +18,13 @@ if upper:
             if syms:
                 all+=symbols
                 #specify the length of the password
-                len = 15
+                len = 8
                 #specify the amount of passwords to be generated
+<<<<<<< HEAD:Passwd-generator/passwordgenerator.py
                 amount = 10
+=======
+                amount = 7
+>>>>>>> fd2127c03e0129ffe74be8a3a5b6074ae0cd913b:Passwd-generator/passwdgen.py
                 for x in range(amount):
                  password = "".join(random.sample(all, len))
                  print(password)

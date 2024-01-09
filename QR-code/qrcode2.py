@@ -9,3 +9,4 @@ qr.add_data('We love group projects')
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
+img.save("QR.png")

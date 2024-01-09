@@ -1,6 +1,11 @@
 import qrcode
-features = qrcode.QRCode(version = 1, box_size=40, border=3)
-features.add_data("Hello!My name is Mary Macharia")
-features.make(fit = True)
-generate_image = features.make_image(fill_color = "black", back_color = "white")
-generate_image.save("C:\Users\HP\Documents\petproject\pet_project\QR-code")
+qr = qrcode.QRCode(
+    version=1,
+    error_correction=qrcode.constants.ERROR_CORRECT_L,
+    box_size=10,
+    border=4,
+)
+qr.add_data('We love group projects')
+qr.make(fit=True)
+
+img = qr.make_image(fill_color="black", back_color="white")

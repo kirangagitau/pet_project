@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
-file = open("names.txt", "r")
-for line in file:
-    print(line)
+file = open("names.txt", "a+")
+name = "mark"
+file.write(name)
+file.close()

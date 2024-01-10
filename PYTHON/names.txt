@@ -1,0 +1,12 @@
+Peter; 
+James; 
+John; 
+Andrew; 
+Philip; 
+Judas Iscariot; 
+Matthew; 
+Thomas; 
+James, the son of Alpheus; 
+Bartholomew; 
+Judas Thaddeus; 
+Simon Zelotes

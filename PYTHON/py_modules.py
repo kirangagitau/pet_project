@@ -1,12 +1,14 @@
 #!/usr/bin/python3
+from calendar import isleap as lp  # import attribute & rename it
+import cal  # import user defined module
+import math as mt  # import and rename module
 
-''' importing math module and renaming it '''
-import math as mt
-
+'''attributes from the math module'''
 print(mt.pi)
 print(mt.cos(30))
 
-''' importing isleap from calender module and renaming it'''
-from calendar import isleap as il
+print(lp(2024))
+''' lp as only imported attribute'''
 
-print(il(2024))
+cal.add(9, 8)
+'''calling user defined module'''

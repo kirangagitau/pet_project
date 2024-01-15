@@ -7,6 +7,7 @@ import random  # tool for random selection.
 
 ''' this function makes use of the math module'''
 def mathematics():
+    print("\n")
     print(math.cos(math.pi / 4))
     print(math.log(1024, 2))
     return;
@@ -14,14 +15,14 @@ def mathematics():
 
 ''' this function makes use of the random module'''
 def random_module():
-    choice = random.choice(['apple', 'pear', 'banan'])  # choose any
+    choice = random.choice(['Apple', 'Pear', 'Banana', 'Orange'])  # choose any
     x = random.random()  # random float
     y = random.randrange(20)  # random int from range 20
     
     print('\n')
-    print(choice)
-    print(x)
-    print(y)
+    print("The random fruit choice is: ", choice)
+    print("The random float is: ", x)
+    print("The random interger: ", y)
     return;
 
 
@@ -38,7 +39,7 @@ def statisticals():
     print('Score mean is: ', mx)
     print('Score Median is: ', md)
     print('Score variance is: ',var)
-    print("the Range is: ")
+    print("The Range is: ")
     print(rn)
     return;
 

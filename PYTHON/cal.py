@@ -1,11 +1,16 @@
-def add(a,b):
+#!/usr/bin/python3
+
+
+def add(a, b):
     print(a + b)
-    return;
+    return
 
-def sub(a,b):
+
+def sub(a, b):
     print(a - b)
-    return;
+    return
 
-def div(a,b):
-    print(a/b)
-    return;
+
+def div(a, b):
+    print(a / b)
+    return

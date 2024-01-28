@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
-import cal
+from cal import *
 
-cal.add(5, 7)
-cal.sub(5, 7)
+def mathing():
+    add(5, 7)
+    sub(5, 7)
+    return
+
+mathing()

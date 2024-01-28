@@ -5,7 +5,8 @@ import random
 
 
 def macx_gui():
-    students = 30
+    x = input("How many scores?  {:d}".format(x))
+    students = abs(x)
     while students != 0:
         x = random.randint(28, 63)
         print("{:d} ".format(x))

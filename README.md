@@ -1,4 +1,4 @@
-# @Authors Gitau Muguro && Wanjiku Macharia
+# Authors Gitau Muguro && Wanjiku Macharia
 
 This is a collaborative project with the two of us aiming at learning, understanding and mastering
 python programming language. It is common for developers to collaborate on on a project every now
@@ -9,3 +9,6 @@ Best wishes to all of us as we partake the journey.
 Happy coding.
 
 !! good reading to us  all !!
+
+## PEP8
+This is the coding format for python language commonly known as PEP8 but currently refered to as the pycodestyle
